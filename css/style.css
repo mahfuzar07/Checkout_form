@@ -15,7 +15,6 @@ body {
 .payment {
   position: relative;
   display: flex;
-
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -65,6 +64,7 @@ body {
   border-radius: 50%;
   box-shadow: -40px 0 0 rgba(255, 164, 36, 0.5);
 }
+
 .bankName {
   color: #999;
   text-align: end;
@@ -74,13 +74,13 @@ body {
   font-size: 1.5em;
 }
 form {
-  margin-top: 45px;
+  margin-top: 40px;
 }
 .inputBox {
   display: flex;
 
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .inputBox span {
   color: #089cff;
@@ -120,6 +120,26 @@ input::placeholder {
   cursor: pointer;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
+.icon {
+  display: flex;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.fa {
+  margin-right: 5px;
+  padding: 3px 5px;
+  background-color: #fff;
+  color: rgb(177, 171, 161);
+  border-radius: 2px;
+}
+
+i.active {
+  background: rgba(5, 100, 42, 0.932);
+  transform: scale(1.4);
+  transition: all ease 0.5s;
+  opacity: 1;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -127,9 +147,19 @@ input::placeholder {
     height: 40%;
     width: 85%;
   }
+  .icon {
+    display: flex;
+    width: 100%;
+    font-size: 1.3em;
+  }
+  .fa:active {
+    background: orangered;
+    transform: scale(0.5);
+    transition: all ease 0.5s;
+  }
   .payment .card {
     width: 380px;
-    height: 250px;
+    height: 270px;
     background: #fcfcfc;
     padding: 10px;
   }
@@ -137,6 +167,7 @@ input::placeholder {
     max-width: 55px;
   }
   .logo {
+    top: 130px;
     right: 30px;
     width: 30px;
     height: 30px;
@@ -147,10 +178,10 @@ input::placeholder {
     font-size: 1.3em;
   }
   form {
-    margin-top: 35px;
+    margin-top: 30px;
   }
   .inputBox {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
   }
   .inputBox span {
     color: #089cff;
