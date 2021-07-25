@@ -1,5 +1,5 @@
 # Transition Checkout form
-<h3 align: center">Transition Checkout Form Design</h3>
+<h3 align:center">Transition Checkout Form Design</h3>
 <ol>
 <li>HTML</li>
 <li>CSS</li>
