@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="payment">
+      <div class="bg"></div>
+      <div class="card">
+        <img src="./image/chip.png" alt="" class="chip" />
+        <div class="logo"></div>
+
+        <!-- <h2 class="bankName" placeholder="Bank Name"></h2> -->
+        <input class="bankName" type="text" placeholder="Bank Name" />
+        <form action="">
+          <div class="inputBox">
+            <span>Card No.</span>
+            <input
+              type="text"
+              placeholder="0145 2563 2458 2458"
+              maxlength="16"
+            />
+          </div>
+          <div class="inputBox">
+            <span>Card Holder</span>
+            <input type="text" placeholder="Your Name" />
+          </div>
+          <div class="group">
+            <div class="inputBox">
+              <span>Valid Thru</span>
+              <input type="text" placeholder="MM/YY" maxlength="7" />
+            </div>
+            <div class="inputBox">
+              <span>CCV</span>
+              <input type="password" placeholder="***" maxlength="4" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <button type="submit" class="btn">Confirm & Pay Bill</button>
+    </div>
+  </body>
+</html>
