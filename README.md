@@ -1,4 +1,4 @@
-# Transition Checkout form
+# <h2 text-align:center;>Transition Checkout form</h2>
 <h3>Transition Checkout Form Design</h3>
 <ol>
 <li>HTML</li>
