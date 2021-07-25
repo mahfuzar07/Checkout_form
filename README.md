@@ -8,6 +8,6 @@
 </ol>
 <h4> Feature</h4>
 <ul>
-- Credit card number formatting With auto text Delimiter\n
-- When fill in the account number, the card type and the two numbers match, then the active class will be added and the icon will be selected
+<li>Credit card number formatting With auto text Delimiter</li>
+<li> When fill in the account number, the card type and the two numbers match, then the active class will be added and the icon will be selected</li>
 </ul>
