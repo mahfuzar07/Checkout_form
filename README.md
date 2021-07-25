@@ -1,6 +1,5 @@
-# Checkout_form
-Transition Checkout form
-<h5>Transition Checkout Form Design</h5>
+# Transition Checkout form
+<h3>Transition Checkout Form Design</h3>
 <ol>
 <li>HTML</li>
 <li>CSS</li>
